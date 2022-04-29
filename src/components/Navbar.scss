@@ -1,0 +1,31 @@
+@import "../variables";
+
+
+.navbar-nav li a {
+  color: $third-color;
+  margin: 0 5px;
+}
+
+.navbar-nav li a:hover {
+  color: $secondary-color;
+}
+
+.navbar-light .navbar-brand {
+  color: $third-color;
+}
+
+.navbar-brand:hover {
+  color: $secondary-color;
+}
+
+.navbar .navbar-toggler {
+  border-color: $main-color;
+}
+
+.bg-custom {
+  background-color: $main-color;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2890, 102, 76, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}

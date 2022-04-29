@@ -1,13 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// sass file
+import "./Navbar.scss";
+
 const Navbar = () => {
     return (
-      <div>
+      
         <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-custom">
           <div className="container-fluid">
             <Link
-              className="navbar-brand fw-bolder fs-2"
+              className="navbar-brand fw-bolder fs-3"
               to="/"
               title="HomePage"
             >
@@ -67,7 +70,7 @@ const Navbar = () => {
             </div>
           </div>
         </nav>
-      </div>
+      
     );
 };
 
