@@ -1,16 +1,14 @@
 @import "../variables";
 @import "../mixins";
 
-.works-heading {
-  margin-bottom: 100px;
-}
-.project-title {
-  font-size: 42px;
-}
 
 .project-description {
     width: 30%;
     padding: 0;
+
+    .project-title {
+     font-size: 42px;
+    }
 
     p {
      font-size: 18px;

@@ -1,4 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "./Projects.scss";
+
+//components
 import Project from "./Project";
 
 //images
@@ -51,6 +55,9 @@ const Projects = () => {
           link="https://www.shecodes.io/workshops/shecodes-basics-5fe05f16-50aa-4ded-b857-9670702bd1c4/projects/628766"
           reverse={true}
         />
+      </div>
+      <div>
+        <Link to="/work" className="more-projects">see more projects</Link>
       </div>
     </div>
   );

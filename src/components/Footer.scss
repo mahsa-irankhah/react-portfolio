@@ -1,0 +1,26 @@
+@import "../variables";
+
+footer {
+  .source-link-part {
+    margin: 10px;
+    padding: 0;
+    font-size: 15px;   
+    a {
+       color: $third-color;
+    } 
+  }
+
+  .icon-links i {
+    padding: 10px;
+    margin: 10px 30px;
+    font-size: 20px;
+    background-color: $secondary-color;
+    border-radius: 50%;
+  }
+  
+  .icon-links a {
+    color: rgb(90, 89, 89);
+  }
+} 
+
+
