@@ -10,6 +10,7 @@
    margin: 50px auto;
    border: 2px solid $third-color;
    border-style: double none;
+   border-radius: 0;
 
    &:hover {
        color: $main-color;

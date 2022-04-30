@@ -4,11 +4,13 @@ import './App.scss';
 
 //components
 import Landing from './components/Landing';
+import About from "./components/About";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Landing />} />
+      <Route path="/about" element={<About />} />
     </Routes>
   );
 }
