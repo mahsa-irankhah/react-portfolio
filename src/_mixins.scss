@@ -11,3 +11,17 @@
 @mixin transition {
     transition: all 0.25s ease-in-out;
 }
+
+
+@mixin media($size) {
+  @if ($size == S) {
+    @media (max-width:480px) {
+      @content
+    }
+  } @else if ($size == M) {
+    @media (max-width:768px) {
+      @content
+    }
+  }
+   
+}

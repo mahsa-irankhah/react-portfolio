@@ -1,4 +1,5 @@
 @import "../variables";
+@import "../mixins";
 
 .contact {
   width: 800px;
@@ -29,5 +30,16 @@
 }
 
 
+@include media(S) {
+  .contact {
+    max-width: 80%;
+    padding: 0;
+    padding-top: 20px;
+    margin: 30px auto;
+  }
 
+  .contact-info {
+    padding: 20px;
+  }
+}
 

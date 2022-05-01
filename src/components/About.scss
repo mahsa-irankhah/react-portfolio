@@ -1,6 +1,11 @@
 @import "../variables";
 @import "../mixins";
 
+.container {
+  overflow-x: hidden !important;
+  margin: 0 auto;
+}
+
 .about-content {
   padding-top: 120px;
 
@@ -62,4 +67,28 @@
 }
 
 
+@include media(S) {
+  .about-content {
+    padding: 5px;
+    margin-top: 25px;
 
+    h1 {
+      font-size: 35px;
+    }
+
+    h1, h4, p, ul {
+      padding: 0;
+      max-width: 100%;
+    }
+
+    ul {
+      list-style: none;
+    }
+    
+  }
+
+  .picture-border {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+}

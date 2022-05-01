@@ -1,4 +1,5 @@
 @import "../variables";
+@import "../mixins";
 
 footer {
   .source-link-part {
@@ -24,3 +25,8 @@ footer {
 } 
 
 
+@include media(S) {
+  footer {
+    margin: 0;
+  }
+}

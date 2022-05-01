@@ -8,7 +8,7 @@ const Hero = () => {
           <div className="name">
             <h2 className="fw-bold">👋 Hi I am</h2>
             <h1 className="fw-bolder">Mahsa Irankhah</h1>
-            <h3 className="fw-bold">Front-end developer, based in Iran</h3>
+            <h3 className="fw-bold">Front-end developer</h3>
           </div>
           <a
             href="/index.html#contact"

@@ -41,3 +41,52 @@
 }
 
 
+@include media(M) {
+
+  
+  .project-description {
+    width: 50%;
+    
+  }
+  .project-image-div {
+    width: 50%;
+    
+    .images {
+      width: 50%;
+      height: 50%;
+      
+    }
+}
+}
+
+@include media(S) {
+  .project-container {
+    margin: 0;
+  }
+  .project-image-div {
+    display: none;
+  }
+
+  .launch-links {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .project-description {
+    width: 90%;
+    
+
+    .project-title {
+     font-size: 35px;
+     text-align: center;
+    }
+
+    p {
+     font-size: 18px;
+     text-align: justify;
+    }
+}
+}
+

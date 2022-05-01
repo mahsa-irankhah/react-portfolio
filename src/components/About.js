@@ -11,12 +11,12 @@ import mahsa from "../images/mahsairankhah.jpg";
 const About = () => {
     return (
       <div>
-          <Navbar />
+        <Navbar />
         <div className="container">
           <div className="row about-content mb-5">
             <div className="col-lg-6 col-12">
               <h1>Mahsa Irankhah</h1>
-              <h4 className="center mb-4">Front-end developer, based in Iran</h4>
+              <h4 className="center mb-4">Front-end developer</h4>
               <p>
                 I love coding and I work hard to improve my skills every day. I
                 studied psychology in college. But as I realized I find

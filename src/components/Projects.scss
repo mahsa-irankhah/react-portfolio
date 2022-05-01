@@ -1,6 +1,10 @@
 @import "../variables";
 @import "../mixins";
 
+
+.projects {
+    overflow-x: hidden !important;
+}
 .more-projects {
     @include button;
    display: block;
@@ -16,4 +20,12 @@
        color: $main-color;
        background-color: $third-color;
    }
+}
+
+@include media(S) {
+    .more-projects {
+        display: block;
+        
+        margin: 0 auto;
+    }
 }

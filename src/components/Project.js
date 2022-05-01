@@ -7,15 +7,19 @@ const Project = (props) => {
       <div
         className={
           props.reverse
-            ? "d-flex justify-content-evenly flex-row-reverse mt-5 mb-5 p-5"
-            : "d-flex justify-content-evenly mt-5 mb-5 p-5"
+            ? "project-container d-flex justify-content-evenly flex-row-reverse mt-5 mb-5 p-5"
+            : "project-container d-flex justify-content-evenly mt-5 mb-5 p-5"
         }
       >
         <div className="project-image-div">
-          <img className="images shadow" src={props.image} alt="app" />
+          <img
+            className="images img-fluid mx-auto d-block shadow"
+            src={props.image}
+            alt="app"
+          />
         </div>
         <div className="project-description">
-          <h2 className="project-title fw-bold mb-4">{props.title}</h2>
+          <h2 className="project-title text-capitalize fw-bold mb-4">{props.title}</h2>
           <p className="mb-5">{props.description}</p>
           <div className="mb-5">
             <a

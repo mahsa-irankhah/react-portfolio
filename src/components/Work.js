@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Projects.scss";
 
 //components
 import Project from "./Project";
+import Navbar from "./Navbar";
 
 //images
 import todo from "../images/todo-app.jpg";
@@ -14,6 +14,7 @@ import taylor from "../images/taylorswift.png";
 const Projects = () => {
   return (
     <div>
+      <Navbar />
       <div className="projects">
         <Project
           image={todo}
@@ -56,9 +57,7 @@ const Projects = () => {
           reverse={true}
         />
       </div>
-      <div>
-        <Link to="/work" className="more-projects">see more projects</Link>
-      </div>
+      
     </div>
   );
 };

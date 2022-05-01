@@ -51,7 +51,7 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link
                     className="nav-link fw-bold"
-                    to="/works"
+                    to="/work"
                     title="my projects preview"
                   >
                     Work
@@ -60,7 +60,7 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link
                     className="nav-link fw-bold"
-                    to="/contact"
+                    to="/"
                     title="My Contact Info"
                   >
                     Contact Me
