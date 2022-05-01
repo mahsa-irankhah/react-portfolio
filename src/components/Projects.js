@@ -13,7 +13,7 @@ import taylor from "../images/taylorswift.png";
 
 const Projects = () => {
   return (
-    <div>
+    <div id="work">
       <div className="projects">
         <Project
           image={todo}

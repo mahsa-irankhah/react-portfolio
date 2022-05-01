@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from "react-router-hash-link";
 
 // sass file
 import "./Navbar.scss";
@@ -58,13 +59,13 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link
+                  <HashLink
                     className="nav-link fw-bold"
-                    to="/"
+                    to="/#contact"
                     title="My Contact Info"
                   >
                     Contact Me
-                  </Link>
+                  </HashLink>
                 </li>
               </ul>
             </div>
