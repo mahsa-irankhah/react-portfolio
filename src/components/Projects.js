@@ -6,9 +6,9 @@ import "./Projects.scss";
 import Project from "./Project";
 
 //images
-import todo from "../images/todo-app.jpg";
-import weather from "../images/weather-app.jpg";
-import hangman from "../images/hangman.jpg";
+import todo from "../images/todo-app.png";
+import weather from "../images/weather.png";
+import hangman from "../images/hangman.png";
 import taylor from "../images/taylorswift.png";
 
 const Projects = () => {
