@@ -27,13 +27,13 @@ const Footer = () => {
           </div>
           <p class="text-center fw-bold fs-6 source-link-part">
             <a
-              href="https://github.com/mahsa-irankhah/portfolio-project"
+              href="https://github.com/mahsa-irankhah/react-portfolio"
               target="_blank"
               rel="noreferrer"
               title="open Github repository"
             >
-            open-source 
-            </a> {" "} 
+              open-source
+            </a>{" "}
             coded by Mahsa Irankhah
           </p>
         </footer>
