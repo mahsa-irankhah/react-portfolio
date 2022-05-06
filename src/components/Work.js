@@ -36,14 +36,14 @@ const Projects = () => {
           this very portfolio has a vanilla js version which you can
           check the code in my GitHub. My motive to rebuild this portfolio with react was
           to improve the UX by using SPA so the users can browse around faster through my website."
-          link=""
+          link="https://snazzy-blancmange-fb7275.netlify.app/"
           reverse={false}
         />
         <Project
           image={dictionary}
           title="Dictionary"
           description="This was a very exciting project we built with react.js and a dictionary API in final course of SheCodes.
-           It was quite amazing building such a useful app and design it vintage-like."
+           It was quite amazing building such a useful app and I designed it vintage-like."
           link="https://fastidious-sunburst-aac406.netlify.app/"
           reverse={true}
         />
@@ -66,9 +66,9 @@ const Projects = () => {
         <Project
           image={messenger}
           title="Messenger"
-          description="I couldn't imagine that one day I can build a meesenger application on my own. yeah... you're right.
-          I used chat engine package but it was so cool! I should be excited. By the way you can sign in with your google account. for this feature I used firebase. 
-          I should warn you if you're in Iran, you need some special sort of vpn to login. I believe it's possible to use it with your chrome vpn connected if you want to test it in your PC. "
+          description="I couldn't imagine that one day I can build a meesenger application on my own.
+          I used chat engine package and firebase so you can sign in with your google account. 
+          I should warn you if you're in Iran, you need some special sort of VPN to login. I believe it's possible to use it with your chrome vpn connected if you want to test it in your PC. "
           link="https://startling-mermaid-d50877.netlify.app/"
           reverse={false}
         />
