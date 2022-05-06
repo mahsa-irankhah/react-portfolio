@@ -32,8 +32,10 @@ const About = () => {
               <ul>
                 <li>HTML/CSS</li>
                 <li>Javascript and APIs</li>
+                <li>React.js</li>
                 <li>Responsive Design</li>
-                <li>bootstrap</li>
+                <li>Bootstrap</li>
+                <li>SASS</li>
                 <li>Github</li>
                 <li>Netlify</li>
               </ul>

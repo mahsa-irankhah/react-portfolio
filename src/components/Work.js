@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Projects.scss";
 
 //components
@@ -20,6 +20,11 @@ import crypto from "../images/crypto.png";
 
 
 const Projects = () => {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <Navbar />
@@ -29,7 +34,7 @@ const Projects = () => {
           title="My Portfolio"
           description="I built this portfolio by react.js and styled using SASS.
           this very portfolio has a vanilla js version which you can
-          check the codes in my GitHub. The reason I rebuilt this portfolio with react was
+          check the code in my GitHub. My motive to rebuild this portfolio with react was
           to improve the UX by using SPA so the users can browse around faster through my website."
           link=""
           reverse={false}
@@ -46,7 +51,7 @@ const Projects = () => {
           image={shoppingCart}
           title="Shopping Cart"
           description="Shopping Cart is one of the most important projects in my arsenal as I assume most real store projects need to include a shopping cart.
-           And I think it was somehow tricky to build. I had to use Context as state manager and also used useReducer hooks. I found coding this project absolutely useful as a practice."
+           And I think it was somehow challenging to build. I had to use Context as state manager and also used useReducer hooks. I found coding this project absolutely useful as a practice."
           link="https://sparkling-smakager-2a677f.netlify.app/products"
           reverse={false}
         />
