@@ -60,7 +60,7 @@ const Projects = () => {
           title="Form with validation"
           description="Another impressive project that I enjoyed coding was this sign up/ login form with validation feature.
           I used react.js with SPA technology for building two different pages fot sign up and login. I used regex for email validation."
-          link=""
+          link="https://enchanting-kelpie-a4fa46.netlify.app/register"
           reverse={true}
         />
         <Project
